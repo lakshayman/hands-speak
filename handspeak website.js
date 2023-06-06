@@ -1,7 +1,7 @@
 $(function() {
 	//values pulled from query string
 	$('#model').val("asl-zvtzj");
-	$('#version').val("1");
+	$('#version').val("2");
 	$('#api_key').val("jDe3oLqeMROliCqy1rBR");
 
 	setupButtonListeners();

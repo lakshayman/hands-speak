@@ -90,7 +90,7 @@ navigator.mediaDevices.getUserMedia({ video: true, audio: false }).then(function
         publishable_key: "rf_jhzLe7fo5WXYRAKCNPwHysiuvJP2"
     }).load({
         model: "asl-zvtzj",
-        version: 1
+        version: 2
     }).then(function(model) {
         setInterval(function() {
             model.detect(video).then(function(predictions) {
