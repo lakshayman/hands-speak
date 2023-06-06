@@ -87,9 +87,9 @@ navigator.mediaDevices.getUserMedia({ video: true, audio: false }).then(function
     video.play();
 
     roboflow.auth({
-        publishable_key: "rf_uqryEnWSmMRoH1wag4xPLhNrUfD3"
+        publishable_key: "rf_jhzLe7fo5WXYRAKCNPwHysiuvJP2"
     }).load({
-        model: "american-sign-language-letters-frkps",
+        model: "asl-zvtzj",
         version: 1
     }).then(function(model) {
         setInterval(function() {

@@ -1,8 +1,8 @@
 $(function() {
 	//values pulled from query string
-	$('#model').val("american-sign-language-letters-frkps");
+	$('#model').val("asl-zvtzj");
 	$('#version').val("1");
-	$('#api_key').val("yla7uMJ7vdlT50JODIcp");
+	$('#api_key').val("jDe3oLqeMROliCqy1rBR");
 
 	setupButtonListeners();
 });
