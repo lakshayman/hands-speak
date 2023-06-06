@@ -17,7 +17,7 @@ var infer = function() {
 			$('#output').html("").append([
 				"Error loading response.",
 				"",
-				"File not found,",
+				"File not found ,",
 				"Check your parameters",
 				"then try again."
 			].join("\n"));
