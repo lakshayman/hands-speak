@@ -87,9 +87,9 @@ navigator.mediaDevices.getUserMedia({ video: true, audio: false }).then(function
     video.play();
 
     roboflow.auth({
-        publishable_key: "rf_jhzLe7fo5WXYRAKCNPwHysiuvJP2"
+        publishable_key: "rf_Uqa2dll0yFTvZ73pvhp3KZHEQJp1"
     }).load({
-        model: "asl-zvtzj",
+        model: "handsspeak",
         version: 1
     }).then(function(model) {
         setInterval(function() {
