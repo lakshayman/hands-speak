@@ -1,8 +1,8 @@
 $(function() {
 	//values pulled from query string
-	$('#model').val("asl-zvtzj");
+	$('#model').val("handsspeak");
 	$('#version').val("1");
-	$('#api_key').val("jDe3oLqeMROliCqy1rBR");
+	$('#api_key').val("unBfRU9W2Aht4Aldp43V");
 
 	setupButtonListeners();
 });
